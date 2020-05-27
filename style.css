@@ -34,7 +34,7 @@ canvas {
     z-index: 10;
 }
 
-..tooltip {
+.tooltip {
   position: relative;
   
 }
@@ -57,7 +57,7 @@ canvas {
   position: absolute;
   z-index: 1;
   bottom: -200%;
-  left: 50%;
+  left: 35%;
   margin-left: -200px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -68,10 +68,6 @@ canvas {
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: transparent;
-  border-color: #555 transparent transparent transparent;
   opacity: 0;
 }
 
