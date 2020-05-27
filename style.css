@@ -18,6 +18,9 @@ canvas {
     user-select: none;
 }
 #help-content {
+    position: absolute;
+    right: 15px;
+    top: 15px;
     font-family: monospace;
     font-size: 12px;
     font-style: normal;
@@ -35,24 +38,8 @@ canvas {
     opacity: 0;
     transition-property: opacity;
 }
-.tooltipster-base {
-    display: flex;
-    position: absolute;
-}
-.tooltipster-sidetip.tooltipster-noir .tooltipster-box {
+
+ .tooltipster-box {
     border-radius: 0;
     border: 3px solid transparent;
-}
-
-.tooltipster-sidetip.tooltipster-noir .tooltipster-arrow-background {
-    border: 11px solid transparent;
-}
-
-.tooltipster-sidetip.tooltipster-noir .tooltipster-content {
-    color: white;
-}
-
-.tooltipster-sidetip .tooltipster-content {
-    line-height: 18px;
-    padding: 6px 14px;
 }
