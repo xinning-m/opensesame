@@ -19,8 +19,9 @@ canvas {
 }
 #help-content {
     position: absolute;
+    color: white;
     right: 15px;
-    top: 15px;
+    top: 25px;
     font-family: monospace;
     font-size: 12px;
     font-style: normal;
