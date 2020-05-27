@@ -41,7 +41,7 @@ canvas {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 320px;
+  width: 200px;
   background-color: transparent;
   color: white;
   font-family: monospace;
