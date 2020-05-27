@@ -19,39 +19,4 @@ canvas {
   
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  color: white;
-  font-family: monospace;
-    font-size: 12px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 17px;
-    white-space: pre;
-  text-align: left;
-  border-radius: 0px;
-  padding:0px 0;
-  position: absolute;
-  z-index: 1;
-   top: 0%;
-  right: 200%;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left:0%;
-
-  opacity: 0;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
 
