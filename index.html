@@ -15,12 +15,25 @@ $(document).ready(function(){
   });
 });
             $(document).ready(function() {
-            $('.tooltip').tooltipster();
+            $('.tooltip').tooltipster(  
+   { animation: 'fade',
+   delay: 200,
+   theme: 'tooltipster-noir',
+   trigger: 'click'
+});
         });
     </script>
   <body>
-    <span id="help" data-tooltip-content="#help-content" class="tooltipstered">?</span>
-        
+    <span id="help" data-tooltip-content="#help-content" class="tooltipstered">?</span>     
+</div><div class="tooltipster-content"><div id="help-content">Use numbers between 0-9
+Consecutively same numbers
+Up Arrow : 2
+Down Arrow : 3
+Right Arrow : 4
+Left Arrow: Repeat numbers 
+previously used in sequence              
+S : Save image
+Return to start over
 </div>
 </script>
 
