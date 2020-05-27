@@ -34,8 +34,9 @@ canvas {
     z-index: 10;
 }
 
-.tooltipster:hover .tooltipstercontent {
+.tooltipster:hover .tooltipstercontentshow {
+  content: "help-content";
   visibility: visible;
-  opacity: 1;
+  color: white
 }
 
