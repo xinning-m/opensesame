@@ -6,8 +6,10 @@ canvas {
   display: block;
 }
 .tooltip {
-      position: relative;
-  
+      position: absolute;
+  right: 45px;
+    top: 25px;
+    padding: 4px;
     background-color: transparent;
     color: white;
 
