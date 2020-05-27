@@ -6,12 +6,11 @@ canvas {
   display: block;
 }
 .tooltip {
-      position: absolute;
-    right: 45px;
-    top: 15px;
+      position: relative;
+  
     background-color: transparent;
     color: white;
-    padding: 4px;
+
     font-family: sans-serif;
     font-size: 15px;
   
