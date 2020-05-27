@@ -28,3 +28,31 @@ canvas {
     z-index: 10;
 }
 
+.tooltipster-fade.tooltipster-show {
+    opacity: 1;
+}
+.tooltipster-fade {
+    opacity: 0;
+    transition-property: opacity;
+}
+.tooltipster-base {
+    display: flex;
+    position: absolute;
+}
+.tooltipster-sidetip.tooltipster-noir .tooltipster-box {
+    border-radius: 0;
+    border: 3px solid transparent;
+}
+
+.tooltipster-sidetip.tooltipster-noir .tooltipster-arrow-background {
+    border: 11px solid transparent;
+}
+
+.tooltipster-sidetip.tooltipster-noir .tooltipster-content {
+    color: white;
+}
+
+.tooltipster-sidetip .tooltipster-content {
+    line-height: 18px;
+    padding: 6px 14px;
+}
