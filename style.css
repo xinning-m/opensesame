@@ -7,7 +7,7 @@ canvas {
 }
 .tooltip {
   position: absolute;
-    right: 15px;
+    right: 45px;
     top: 15px;
   font-family: sans-serif
   color: white
@@ -31,7 +31,7 @@ canvas {
   position: absolute;
   z-index: 1;
   bottom: -760%;
-  left: 30%;
+  left: 50%;
   margin-left: -200px;
   opacity: 0;
   transition: opacity 0.3s;
