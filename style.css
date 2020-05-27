@@ -34,10 +34,9 @@ canvas {
   border-radius: 0px;
   padding:0px 0;
   position: absolute;
-  z-index: 10;
-  bottom: -660%;
-  left:0%;
-  margin-left: -150px;
+  z-index: 1;
+   top: 0%;
+  right: 200%;
   opacity: 0;
   transition: opacity 0.3s;
 }
