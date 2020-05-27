@@ -34,7 +34,7 @@ canvas {
   position: absolute;
   z-index: 10;
   bottom: -660%;
-  left: 50%;
+  left:287px
   margin-left: -200px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -44,7 +44,7 @@ canvas {
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left:287px
 
   opacity: 0;
 }
