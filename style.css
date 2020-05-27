@@ -7,7 +7,7 @@ canvas {
 }
 .tooltip {
       position: absolute;
-    right: 15px;
+    right: 45px;
     top: 15px;
     background-color: transparent;
     color: white;
@@ -32,8 +32,8 @@ canvas {
   border-radius: 0px;
   padding:0px 0;
   position: absolute;
-  z-index: 1;
-  bottom: -760%;
+  z-index: 10;
+  bottom: -660%;
   left: 50%;
   margin-left: -200px;
   opacity: 0;
