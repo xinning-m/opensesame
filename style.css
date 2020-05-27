@@ -18,6 +18,7 @@ canvas {
     user-select: none;
 }
 #help-content {
+    visibility: hidden;
     position: absolute;
     color: white;
     right: 15px;
@@ -32,16 +33,19 @@ canvas {
     white-space: pre;
     z-index: 10;
 }
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
 
-.tooltipster-fade.tooltipster-show {
-    opacity: 1;
-}
-.tooltipster-fade {
-    opacity: 0;
-    transition-property: opacity;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
- .tooltipster-box {
-    border-radius: 0;
-    border: 3px solid transparent;
-}
